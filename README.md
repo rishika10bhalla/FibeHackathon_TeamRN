@@ -58,17 +58,46 @@ This dataset was obtained from Kaggle. It was originally compiled by Lending Clu
 ## 4. Model Training :
 We trained our model using various Machine Learning algorithms such as **Logistic Regression, XGBoost, Artificial Neural Networks (ANN), and Random Forest Classifier (RFC)**. The following table shows the accuracy achieved by each model:
 
-Models || Accuracy
------------- | -------------
-ANN || 0.8872020646728405
-XGBoost || 0.8868857851323314
-Logistic Regression || 0.8878219725722383
-Random Forest Classifier || 0.8879548707049238
+| Models                  | Accuracy               |
+| ----------------------- | ---------------------- |
+| ANN                     | 0.8872020646728405     |
+| XGBoost                 | 0.8868857851323314     |
+| Logistic Regression     | 0.8878219725722383     |
+| Random Forest Classifier| 0.8879548707049238     |
 
 Based on the accuracy achieved, we selected the Random Forest Classifier as our final model.
 
 ## 5. Deployment :
+We deployed the Random Forest Classifier model using a Streamlit front-end, allowing users to input loan information and receive a prediction of whether the loan will be fully paid or will default.
 
 ## 6. Repository Structure:
+* **data:** Contains the dataset used for the project.
+* **src:** Contains the Python scripts used for data cleaning, preprocessing, model training, and deployment.
+* **models:** Contains the trained model.
+* **app.py:** Contains the Streamlit front-end code for the deployed application.
+* **requirements.txt:** Contains the list of Python libraries required for the project
 
 ## 7. Installation :
+## 7.1 Requirements :
+* Python 3.6 or higher
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* XGBoost
+* Keras
+* Tensorflow
+* Streamlit
+
+## 7.1 Running the project :
+To run the deployed application, navigate to the project directory in your command prompt or terminal and run the following command:
+
+```
+streamlit run app.py
+```
+
+This will launch the application in your browser, where you can input loan information and receive a prediction of whether the loan will be fully paid or will default.
+
+The `app.py` file in the `src` directory contains the Streamlit front-end code for the deployed application.
+
