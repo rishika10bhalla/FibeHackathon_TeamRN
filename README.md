@@ -75,10 +75,9 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
 * **src:** Contains the Python scripts used for data cleaning, preprocessing, model training, and deployment.
 * **models:** Contains the trained model.
 * **app.py:** Contains the Streamlit front-end code for the deployed application.
-* **requirements.txt:** Contains the list of Python libraries required for the project
 
 ## 7. Installation :
-## 7.1 Requirements :
+### 7.1 Requirements :
 * Python 3.6 or higher
 * Pandas
 * Numpy
@@ -90,7 +89,14 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
 * Tensorflow
 * Streamlit
 
-## 7.1 Running the project :
+### 7.2 Installation :
+To install the project, first clone the repository:
+
+git clone ''
+
+Then, install the required packages from requirements.txt
+
+### 7.3 Running the project :
 To run the deployed application, navigate to the project directory in your command prompt or terminal and run the following command:
 
 ```
