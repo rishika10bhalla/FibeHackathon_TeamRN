@@ -90,8 +90,6 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
     - XGBoost.ipynb
     - RFC.ipynb
     - LR.ipynb
-- app.py: Contains the Streamlit front-end code for the deployed application.
-
 
 ## Installation :
 ### Requirements :
