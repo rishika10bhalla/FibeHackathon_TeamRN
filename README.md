@@ -1,6 +1,6 @@
 
 # CreditAssure
-This is the project submitted by Team_RN for the Fibe-hack the vibe hackathon. Our project aims to develop an application that can accurately predict whether a person will default on their loan or make timely payments.
+This is the project submitted by **Team_RN** for the Fibe-hack the vibe hackathon. Our project aims to develop an application that can accurately predict whether a person will default on their loan or make timely payments.
 
 ## Problem Statement
 
