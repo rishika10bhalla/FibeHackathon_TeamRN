@@ -1,6 +1,6 @@
 
 # CreditAssure
-This is the project submitted by Team_RN for the Fibe
+This is the project submitted by Team_RN for the Fibe-hack the vibe hackathon.
 
 ## Aim
 
