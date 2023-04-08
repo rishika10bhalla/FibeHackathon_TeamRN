@@ -1,14 +1,14 @@
 # FibeHackathon_TeamRN
-## 1. Aim
+## Aim
 
 Credit scoring is a statistical analysis performed by lenders and financial institutions to determine the ability of a person or a small, owner-operated business to repay. Lenders use credit scoring to help decide whether to extend or deny credit as for any organization, even the slightest chance of financial risk can not be ignored or ruled out. The objective of this challenge is to create a robust machine-learning model to predict which individuals are most likely to default on their loans, based on their historical loan repayment behavior and transactional activities
 
-## 2. Dataset
+## Dataset
 This dataset contains information on loans made through the **Lending Club platform**, a peer-to-peer lending company that connects borrowers with investors. The dataset includes data on loans issued between *2007* and *2018*.
 
 The goal of this dataset is to predict whether a borrower will **fully pay** off their loan or **default**.
 
-### 2.1 Dataset Columns
+### Dataset Columns
 The dataset includes the following 27 columns:
 * **loan_amnt:** The listed amount of the loan applied for by the borrower.
 * **term:** The number of payments on the loan. Values are in months and can be either 36 or 60.
@@ -39,15 +39,15 @@ The dataset includes the following 27 columns:
 * **mort_acc:** Number of mortgage accounts.
 * **pub_rec_bankruptcies:** Number of public record bankruptcies.
 
-### 2.2 Target Variable
+### Target Variable
 The target variable for this dataset is the **loan_status** column. This column indicates whether the borrower has fully paid off their loan or has defaulted.
 
 A value of "Fully Paid" indicates that the borrower has fully paid off their loan, while a value of "Default" indicates that the borrower has failed to pay off the loan
 
-### 2.3 Source
+### Source
 This dataset was obtained from Kaggle. It was originally compiled by Lending Club and made available through Kaggle.
 
-## 3. Project Overview :
+## Project Overview :
 1. **Exploratory Data Analysis:** This step involves analyzing and understanding the data. It includes data visualization, identifying missing values, outliers, and understanding the relationship between the features.
 2. **Data Cleaning:** In this step, we handle missing values, outliers, and remove irrelevant features that are not useful in our analysis.
 3. **Categorical to Numerical:** We convert categorical variables into numerical ones using different encoding techniques.
@@ -55,7 +55,7 @@ This dataset was obtained from Kaggle. It was originally compiled by Lending Clu
 5. **Model Training:** Model training using various algorithms such as Logistic Regression, XGBoost, Artificial Neural Networks (ANN), and Random Forest Classifier (RFC).
 6. **Front-end Development:** We create a user-friendly front-end using Streamlit, a Python library for building interactive web applications.
 
-## 4. Model Training :
+## Model Training :
 We trained our model using various Machine Learning algorithms such as **Logistic Regression, XGBoost, Artificial Neural Networks (ANN), and Random Forest Classifier (RFC)**. The following table shows the accuracy achieved by each model:
 
 | Models                  | Accuracy               |
@@ -67,17 +67,21 @@ We trained our model using various Machine Learning algorithms such as **Logisti
 
 Based on the accuracy achieved, we selected the Random Forest Classifier as our final model.
 
-## 5. Deployment :
+## Deployment :
 We deployed the Random Forest Classifier model using a Streamlit front-end, allowing users to input loan information and receive a prediction of whether the loan will be fully paid or will default.
 
-## 6. Repository Structure:
+### Project Preview :
+![1](https://user-images.githubusercontent.com/79302868/230738139-d49097b5-8642-4fd0-a950-d19e356c2056.jpg)
+![2](https://user-images.githubusercontent.com/79302868/230738146-3e5b5acc-add7-44ef-be5e-c0f1ba9ba439.jpg)
+
+## Repository Structure:
 * **data:** Contains the dataset used for the project.
 * **src:** Contains the Python scripts used for data cleaning, preprocessing, model training, and deployment.
 * **models:** Contains the trained model.
 * **app.py:** Contains the Streamlit front-end code for the deployed application.
 
-## 7. Installation :
-### 7.1 Requirements :
+## Installation :
+### Requirements :
 * Python 3.6 or higher
 * Pandas
 * Numpy
@@ -89,7 +93,7 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
 * Tensorflow
 * Streamlit
 
-### 7.2 Installation :
+### Installation :
 To install the project, first clone the repository:
 
 ```
@@ -98,7 +102,7 @@ git clone 'https://github.com/rishika10bhalla/FibeHackathon_TeamRN'
 
 Then, install the required packages from requirements.txt
 
-### 7.3 Running the project :
+### Running the project :
 To run the deployed application, navigate to the project directory in your command prompt or terminal and run the following command:
 
 ```
@@ -109,7 +113,7 @@ This will launch the application in your browser, where you can input loan infor
 
 The `app.py` file in the `src` directory contains the Streamlit front-end code for the deployed application.
 
-## 8. Conributors :
+## Conributors :
 - [Rishika Bhalla](https://github.com/rishika10bhalla)
 - [Nishtha Jain](https://github.com/2002nishthajain)
 
