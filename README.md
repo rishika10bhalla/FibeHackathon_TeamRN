@@ -92,7 +92,9 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
 ### 7.2 Installation :
 To install the project, first clone the repository:
 
-git clone ''
+```
+git clone 'https://github.com/rishika10bhalla/FibeHackathon_TeamRN'
+```
 
 Then, install the required packages from requirements.txt
 
@@ -106,4 +108,8 @@ streamlit run app.py
 This will launch the application in your browser, where you can input loan information and receive a prediction of whether the loan will be fully paid or will default.
 
 The `app.py` file in the `src` directory contains the Streamlit front-end code for the deployed application.
+
+## 8. Conributors :
+- [Rishika Bhalla](https://github.com/rishika10bhalla)
+- [Nishtha Jain](https://github.com/2002nishthajain)
 
