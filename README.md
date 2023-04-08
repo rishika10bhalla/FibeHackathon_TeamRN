@@ -76,15 +76,22 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
 ![2](https://user-images.githubusercontent.com/79302868/230738146-3e5b5acc-add7-44ef-be5e-c0f1ba9ba439.jpg)
 
 ## Repository Structure:
-* **data:** Contains the dataset used for the project.
-* **src:** Contains necessary files required for the development of a user interface that utilizes the streamlit platform.
-      * **app.py:** Contains the Streamlit front-end code for the deployed application.
-      *  **classifier.pkl:** Contains saved trained model
-      *  **Fibe_Hackathon_streamlit.py:** : Contains code for integrating and connecting the "app.py" file with a model.
-      *  **SessionState.py:** Contains code to help you create session for your app.
-      
-* **models:** Contains the trained model.
-* **app.py:** Contains the Streamlit front-end code for the deployed application.
+- data: 
+  - Contains the dataset used for the project. 
+- src: 
+  - Contains necessary files required for the development of a user interface that utilizes the streamlit platform.
+    - app.py: Contains the Streamlit front-end code for the deployed application.
+    - classifier.pkl: Contains saved trained model
+    - Fibe_Hackathon_streamlit.py: Contains code for integrating and connecting the "app.py" file with a model.
+    - SessionState.py: Contains code to help you create session for your app.  
+- models: 
+  - Contains the trained model.
+    - ANN.ipynb
+    - XGBoost.ipynb
+    - RFC.ipynb
+    - LR.ipynb
+- app.py: Contains the Streamlit front-end code for the deployed application.
+
 
 ## Installation :
 ### Requirements :
