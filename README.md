@@ -78,7 +78,7 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
 ## Repository Structure:
 - data: 
   - Contains the dataset used for the project. 
-  ''' Link for the dataset: https://drive.google.com/file/d/1cd2f_wbIY1NyMSX6gL-eZUSir25Ipj-x/view?usp=sharing '''
+  - Link for the dataset: https://drive.google.com/file/d/1cd2f_wbIY1NyMSX6gL-eZUSir25Ipj-x/view?usp=sharing
 - src: 
   - Contains necessary files required for the development of a user interface that utilizes the streamlit platform.
     - app.py: Contains the Streamlit front-end code for the deployed application.
