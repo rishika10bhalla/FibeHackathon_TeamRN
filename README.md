@@ -60,10 +60,10 @@ We trained our model using various Machine Learning algorithms such as **Logisti
 
 | Models                  | Accuracy               |
 | ----------------------- | ---------------------- |
-| ANN                     | 0.8872020646728405     |
-| XGBoost                 | 0.8868857851323314     |
-| Logistic Regression     | 0.8878219725722383     |
-| Random Forest Classifier| 0.8879548707049238     |
+| ANN                     | 0.8036283588887202     |
+| XGBoost                 | 0.8050199888669601     |
+| Logistic Regression     | 0.8034891958908962     |
+| Random Forest Classifier| 0.8034891958908962     |
 
 Based on the accuracy achieved, we selected the Random Forest Classifier as our final model.
 
