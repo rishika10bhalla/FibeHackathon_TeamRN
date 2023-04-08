@@ -54,3 +54,21 @@ This dataset was obtained from Kaggle. It was originally compiled by Lending Clu
 4. **Feature Engineering:** We create new features from existing ones that may improve our model's performance.
 5. **Model Training:** Model training using various algorithms such as Logistic Regression, XGBoost, Artificial Neural Networks (ANN), and Random Forest Classifier (RFC).
 6. **Front-end Development:** We create a user-friendly front-end using Streamlit, a Python library for building interactive web applications.
+
+## 4. Model Training :
+We trained our model using various Machine Learning algorithms such as **Logistic Regression, XGBoost, Artificial Neural Networks (ANN), and Random Forest Classifier (RFC)**. The following table shows the accuracy achieved by each model:
+
+Models || Accuracy
+------------ | -------------
+ANN || 0.8872020646728405
+XGBoost || 0.8868857851323314
+Logistic Regression || 0.8878219725722383
+Random Forest Classifier || 0.8879548707049238
+
+Based on the accuracy achieved, we selected the Random Forest Classifier as our final model.
+
+## 5. Deployment :
+
+## 6. Repository Structure:
+
+## 7. Installation :
