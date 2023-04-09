@@ -75,8 +75,6 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
 
 ### Project Preview :
 ![c](https://user-images.githubusercontent.com/79302868/230738791-ae477569-a4ef-4077-8d82-a89628307fe7.jpg)
-![1](https://user-images.githubusercontent.com/79302868/230738139-d49097b5-8642-4fd0-a950-d19e356c2056.jpg)
-![2](https://user-images.githubusercontent.com/79302868/230738146-3e5b5acc-add7-44ef-be5e-c0f1ba9ba439.jpg)
 
 ## Repository Structure:
 - data: 
