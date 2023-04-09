@@ -75,6 +75,9 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
 
 ### Project Preview :
 ![c](https://user-images.githubusercontent.com/79302868/230738791-ae477569-a4ef-4077-8d82-a89628307fe7.jpg)
+![CreditAssure_1](https://user-images.githubusercontent.com/77629753/230779451-b9711b8c-57a3-47df-8d5c-e992a06e7139.jpg)
+![CreditAssure_2](https://user-images.githubusercontent.com/77629753/230779462-a74fb7b0-a59b-4011-92fc-fc698989d31a.jpg)
+
 
 ## Repository Structure:
 - data: 
@@ -82,7 +85,8 @@ We deployed the Random Forest Classifier model using a Streamlit front-end, allo
   - Link for the dataset: https://drive.google.com/file/d/1cd2f_wbIY1NyMSX6gL-eZUSir25Ipj-x/view?usp=sharing
 - src: 
   - Contains necessary files required for the development of a user interface that utilizes the streamlit platform.
-    - app.py: Contains the Streamlit front-end code for the deployed application.
+    - app.py: Contains the Streamlit front-end code for the![Uploading CreditAssure_1.jpg…]()
+ deployed application.
     - classifier.pkl: Contains saved trained model
     - Fibe_Hackathon_streamlit.py: Contains code for integrating and connecting the "app.py" file with a model.
     - SessionState.py: Contains code to help you create session for your app.  
